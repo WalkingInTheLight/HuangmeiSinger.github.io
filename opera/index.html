@@ -41,22 +41,29 @@ Abstract摘要
 <h2>2. Experimental Results<a name="exp result"></a></h2>
 
 <table>
-  <em style="font-size: 18px;">Sample 1: 雨淋湿了天空灰得更讲究</em> <em style="font-size: 15px;"> (Yǔ lín shīle tiānkōng huī dé gèng jiǎngjiù)</em>
+  <em style="font-size: 18px;">Sample 1: 处处提防多谨慎</em> <em style="font-size: 15px;"> (chu chu di fang duo jin shen)</em>
   <tr>
-      <td style="text-align: center">Ground Truth</td>
-      <td style="text-align: center">VITS</td>
-      <td style="text-align: center">VISinger</td>
+      <td style="text-align: center">Recording</td>
+      <td style="text-align: center">FFTSinger</td>
+      <td style="text-align: center">DiffSinger</td>
       <td style="text-align: center">VISinger2</td>
-      <td style="text-align: center">PeriodSinger(DPP)</td>
-      <td style="text-align: center">PeriodSinger</td>
+      <td style="text-align: center">Ours</td>
+  </tr>
+
+  <tr>
+    <!-- <td style="text-align: center; width: 150px;" rowspan=1><strong>HMX031084<strong></td> -->
+      <td style="text-align: center"><audio style="width: 150px;" controls="" preload="none" src="sample/Recording_HMX031084.wav"></audio></td>
+      <td style="text-align: center"><audio style="width: 150px;" controls="" preload="none" src="sample/FFTSinger_HMX031084.wav"></audio></td>
+      <td style="text-align: center"><audio style="width: 150px;" controls="" preload="none" src="sample/DiffSinger_HMX031084.wav"></audio></td>
+      <td style="text-align: center"><audio style="width: 150px;" controls="" preload="none" src="sample/ViSinger2_HMX031084.wav"></audio></td>
+      <td style="text-align: center"><audio style="width: 150px;" controls="" preload="none" src="sample/Ours_HMX031084.wav"></audio></td>
   </tr>
   <tr>
-    <td style="text-align: center;"><audio controls="controls"><source src="sample/mandarin/gt/2044001628.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-    <td style="text-align: center"><audio controls="controls"><source src="sample/mandarin/vits/2044001628.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-    <td style="text-align: center"><audio controls="controls"><source src="sample/mandarin/visinger/2044001628.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-    <td style="text-align: center"><audio controls="controls"><source src="sample/mandarin/visinger2/2044001628.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-    <td style="text-align: center"><audio controls="controls"><source src="sample/mandarin/periodsinger_dpp/2044001628.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-    <td style="text-align: center"><audio controls="controls"><source src="sample/mandarin/periodsinger/2044001628.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+    <td style="text-align: center;"><audio controls="controls"><source src="sample/Recording_HMX031084.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+    <td style="text-align: center"><audio controls="controls"><source src="sample/FFTSinger_HMX031084.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+    <td style="text-align: center"><audio controls="controls"><source src="sample/DiffSinger_HMX031084.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+    <td style="text-align: center"><audio controls="controls"><source src="sample/ViSinger2_HMX031084.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+    <td style="text-align: center"><audio controls="controls"><source src="sample/Ours_HMX031084.wav" autoplay/>Your browser does not support the audio element.</audio></td>
   </tr>
 </table>
 
@@ -125,7 +132,7 @@ Abstract摘要
 
 <h3>Ablation study.<a name="Visualization"></a></h2>
 
-  <center><img src='fig/spec.png' width=600px></center>
+  <center><img src='fig/Ab.png' width=600px></center>
   <table>
     <tbody>
       <tr>
